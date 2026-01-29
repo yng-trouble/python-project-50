@@ -1,2 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/yng-trouble/python-project-50/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/yng-trouble/python-project-50/actions)
+
+
+### Демонстрация работы сравнения JSON:
+https://asciinema.org/a/stZDzHSchlcdLQZA
