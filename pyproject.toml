@@ -7,7 +7,7 @@ requires-python = ">=3.12"
 dependencies = []
 
 [project.scripts]
-gendiff = "gendiff.scripts.gendiff:run_gendiff"
+gendiff = "gendiff.scripts.gendiff_script:run_gendiff"
 
 [build-system]
 requires = ["hatchling"]
