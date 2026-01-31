@@ -11,8 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Install pytest
-        run: pip install pytest
+      - name: Install dependencies
+        run: |
+          pip install .
+          pip install pytest
 
       - name: Run linter
         uses: astral-sh/ruff-action@v3
