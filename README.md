@@ -6,3 +6,5 @@
 https://asciinema.org/a/stZDzHSchlcdLQZA
 
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=yng-trouble_python-project-50&metric=coverage)](https://sonarcloud.io/summary/new_code?id=yng-trouble_python-project-50)
+
+[![Checks](https://github.com/yng-trouble/python-project-50/actions/workflows/checks.yml/badge.svg)](https://github.com/yng-trouble/python-project-50/actions/workflows/checks.yml)
