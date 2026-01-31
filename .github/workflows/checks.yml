@@ -20,4 +20,4 @@ jobs:
           src: "./gendiff"
 
       - name: Run pytest
-        run: make test
+        run: pytest
