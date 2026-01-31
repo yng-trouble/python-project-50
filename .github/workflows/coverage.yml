@@ -17,6 +17,13 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
+      - name: Install dependencies
+        run: |
+          pip install .
+          pip install pytest
+
+      - name: Run pytest
+        run: python -m pytest --cov=gendiff --cov-report=xml
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v7
         with:
