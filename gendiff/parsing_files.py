@@ -1,4 +1,4 @@
-import json 
+import json
 
 
 def read(path_to_file):

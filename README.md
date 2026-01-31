@@ -4,3 +4,5 @@
 
 ### Демонстрация работы сравнения JSON:
 https://asciinema.org/a/stZDzHSchlcdLQZA
+
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=yng-trouble_python-project-50&metric=coverage)](https://sonarcloud.io/summary/new_code?id=yng-trouble_python-project-50)
