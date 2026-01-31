@@ -19,5 +19,8 @@ jobs:
           python-version: ${{ matrix.python }}
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v7
+        with:
+          args: >
+            -Dproject.settings=sonar-project.properties
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
