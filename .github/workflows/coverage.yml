@@ -22,5 +22,6 @@ jobs:
         with:
           args: >
             -Dproject.settings=sonar-project.properties
+            -Dsonar.python.coverage.reportPaths=./coverage.xml
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
