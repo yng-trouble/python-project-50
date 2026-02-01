@@ -1,9 +1,11 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/yng-trouble/python-project-50/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/yng-trouble/python-project-50/actions)
 
+### Демонстрация работы сравнения плоских JSON:
+https://asciinema.org/a/tBHclcw7aE1DwszW
 
-### Демонстрация работы сравнения JSON:
-https://asciinema.org/a/stZDzHSchlcdLQZA
+### Демонстрация работы сравнения плоских YAML:
+https://asciinema.org/a/wbXwQvZoTFjNzFu3
 
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=yng-trouble_python-project-50&metric=coverage)](https://sonarcloud.io/summary/new_code?id=yng-trouble_python-project-50)
 

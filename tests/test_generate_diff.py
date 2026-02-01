@@ -1,6 +1,6 @@
 from gendiff.gendiff import generate_diff
-from tests.test_data.flat_json_expected import expected_result, parsed_json1, parsed_json2
+from tests.test_data.flat_expected import expected_result, parsed1, parsed2
 
 
-def test_flat_json_diff():
-    assert generate_diff(parsed_json1, parsed_json2) == expected_result
+def test_flat_diff():
+    assert generate_diff(parsed1, parsed2) == expected_result

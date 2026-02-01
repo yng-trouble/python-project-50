@@ -6,14 +6,14 @@ expected_result = '''- proxy: 123.234.53.22
 host: hexlet.io
 '''
 
-parsed_json1 = {
+parsed1 = {
   "host": "hexlet.io",
   "timeout": 50,
   "proxy": "123.234.53.22",
   "follow": False
 }
 
-parsed_json2 = {
+parsed2 = {
   "timeout": 20,
   "verbose": True,
   "host": "hexlet.io"
