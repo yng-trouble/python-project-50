@@ -1,5 +1,4 @@
 import argparse
-import yaml
 
 from gendiff import parsing_files
 from gendiff.gendiff import generate_diff
